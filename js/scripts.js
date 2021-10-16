@@ -7085,6 +7085,7 @@ function init2() {
         $("html, body").animate({ scrollTop: 0 }, 500),
         setTimeout(function () {
           $(".trabajo_padding").css("height", "500px"),
+          $(".trabajo_padding").css("height", "500px"),
 
           $(".interna_headernext .titulo_thumbs").css({ opacity: "0" }),
             $("#ocultable").css({ opacity: "0" }),
@@ -9539,6 +9540,8 @@ function volverabout() {
       $(".trabajo_cont").removeAttr("style"),
       $(".trabajo").removeAttr("style"),
       $("#paneles_home").removeAttr("style"),
+      $("#paneles_home").css("display" : "none" ),
+
       $("#intro").css({ opacity: "0" }),
       $("#contacto").css({ opacity: "0" }),
       $("#trabajo1").css({ opacity: "0" }),
@@ -9595,6 +9598,9 @@ function volverabout() {
       $(".trabajo_cont").removeAttr("style"),
       $(".trabajo").removeAttr("style"),
       $("#paneles_home").removeAttr("style"),
+
+      $("#paneles_home").css("display" : "none" ),
+
       $("#intro").css({ opacity: "0" }),
       $("#contacto").css({ opacity: "0" }),
       $("#trabajo1").css({ opacity: "0" }),
@@ -9651,6 +9657,8 @@ function volverabout() {
       $(".trabajo_cont").removeAttr("style"),
       $(".trabajo").removeAttr("style"),
       $("#paneles_home").removeAttr("style"),
+
+       $("#paneles_home").css("display" : "none" ),
       $("#intro").css({ opacity: "0" }),
       $("#contacto").css({ opacity: "0" }),
       $("#trabajo1").css({ opacity: "0" }),
@@ -9812,6 +9820,8 @@ function volverabout() {
         });
       }, 1500);
   }),
+
+  
   $(document).on("click", ".checktipo .check", function () {
     $("#tipolabel").css("color", "#ccc");
   }),
