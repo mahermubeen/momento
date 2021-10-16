@@ -1216,7 +1216,6 @@ input:-webkit-autofill {
   display: block;
   float: left;
   position: relative;
-  background-color: #e1e3e2;
 }
 
 .li16 {
@@ -1363,6 +1362,7 @@ li p {
 .goria-li {
   display: flex !important;
   padding: 56px 0;
+  background-color: #e1e3e2;
 }
 
 .goria-li video {
