@@ -6866,7 +6866,7 @@ function init2() {
         : $(window).scrollTop() >
           $("#falsocontenido").height() -
             window.innerHeight -
-            $("#contacto").width() / 2
+            $("#contacto").height() / 2
         ? ($(".titulo_thumbs").css("opacity", "0"),
           $("#link_studio").css("border-bottom", "2px solid transparent"),
           $("#link_works").css("border-bottom", "2px solid transparent"),
@@ -6933,7 +6933,7 @@ function init2() {
           : $(window).scrollTop() >
             $("#falsocontenido").height() -
               window.innerHeight -
-              $("#contacto").width() / 2
+              $("#contacto").height() / 2
           ? ($(".titulo_thumbs").css("opacity", "0"),
             $("#link_studio").css("border-bottom", "2px solid transparent"),
             $("#link_works").css("border-bottom", "2px solid transparent"),
@@ -6995,7 +6995,7 @@ function init2() {
           : $(window).scrollTop() >
             $("#falsocontenido").height() -
               window.innerHeight -
-              $("#contacto").width() / 2
+              $("#contacto").height() / 2
           ? ($(".titulo_thumbs").css("opacity", "0"),
             $("#link_studio").css("border-bottom", "2px solid transparent"),
             $("#link_works").css("border-bottom", "2px solid transparent"),
@@ -7129,7 +7129,7 @@ function init2() {
               : $(window).scrollTop() >
                 $("#falsocontenido").height() -
                   window.innerHeight -
-                  $("#contacto").width() / 2
+                  $("#contacto").height() / 2
               ? ($(".titulo_thumbs").css("opacity", "0"),
                 $("#link_studio").css("border-bottom", "2px solid transparent"),
                 $("#link_works").css("border-bottom", "2px solid transparent"),
@@ -7394,7 +7394,7 @@ function init2() {
     0 == window.interna &&
       ($(window).width() < 1e3
         ? $("#paneles_home").animate({ scrollLeft: $("#intro").width() }, 1e3)
-        : $("html, body").animate({ scrollTop: $("#intro").width() }, 1e3)),
+        : $("html, body").animate({ scrollTop: $("#intro").height() }, 1e3)),
       1 == window.interna &&
         (history.pushState("", document.title, window.location.pathname),
         $(window).scrollTop(window.tempScrollTop),
@@ -7445,7 +7445,7 @@ function init2() {
               : $(window).scrollTop() >
                 $("#falsocontenido").height() -
                   window.innerHeight -
-                  $("#contacto").width() / 2
+                  $("#contacto").height() / 2
               ? ($(".titulo_thumbs").css("opacity", "0"),
                 $("#link_studio").css("border-bottom", "2px solid transparent"),
                 $("#link_works").css("border-bottom", "2px solid transparent"),
@@ -7722,7 +7722,7 @@ function init2() {
             1e3
           )
         : $("html, body").animate(
-            { scrollTop: $("#intro").width() + $("#trabajos").width() },
+            { scrollTop: $("#intro").height() + $("#trabajos").height() },
             1e3
           )),
       1 == window.interna &&
@@ -7776,7 +7776,7 @@ function init2() {
               : $(window).scrollTop() >
                 $("#falsocontenido").height() -
                   window.innerHeight -
-                  $("#contacto").width() / 2
+                  $("#contacto").height() / 2
               ? ($(".titulo_thumbs").css("opacity", "0"),
                 $("#link_studio").css("border-bottom", "2px solid transparent"),
                 $("#link_works").css("border-bottom", "2px solid transparent"),
@@ -8792,7 +8792,7 @@ function volverabout() {
               : $(window).scrollTop() >
                 $("#falsocontenido").height() -
                   window.innerHeight -
-                  $("#contacto").width() / 2
+                  $("#contacto").height() / 2
               ? ($(".titulo_thumbs").css("opacity", "0"),
                 $("#link_studio").css("border-bottom", "2px solid transparent"),
                 $("#link_works").css("border-bottom", "2px solid transparent"),

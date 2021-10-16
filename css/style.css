@@ -4,12 +4,17 @@
 body,
 html {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  
+}
+html{
+  overflow-x: hidden;
 }
 #hideall,
 #transicion {
   z-index: 9999999999;
   left: 0;
 }
+
 body,
 h2,
 h3,
@@ -560,9 +565,6 @@ strong {
   }
 }
 #paneles_home {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   white-space: nowrap;
@@ -578,9 +580,10 @@ strong {
   top: 0.5rem;
 }
 #intro {
-  width: calc(60% - 22rem);
+  width: 100%;
   height: 100%;
-  display: inline-block;
+  display: flex;
+  gap: 50px;
   -o-transition: opacity 0.3s ease;
   -moz-transition: opacity 0.3s ease;
   -webkit-transition: opacity 0.3s ease;
@@ -591,9 +594,8 @@ strong {
   top: 0;
 }
 #trabajos {
-  width: calc(180% + 44rem);
+  width: 100%;
   height: 100%;
-  display: inline-block;
   padding: 0;
   opacity: 0;
   z-index: 99;
@@ -602,16 +604,22 @@ strong {
   -webkit-transition: opacity 0.3s ease;
 }
 #falsocontenido {
-  height: 300vw;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
 .texto_paneles {
+  flex: 1;
   padding-left: 6rem;
   padding-right: 6rem;
   padding-top: 18.5rem;
-  position: absolute;
-  top: 0;
+  position: relative;
   width: 100%;
-  max-width: calc(33vw + 12rem);
+  padding-bottom: 23rem;
+  text-align: left ;
+  max-width: 100% ;
+  float: left;
 }
 #bloqueabout,
 .trabajo,
@@ -651,10 +659,9 @@ strong {
   }
 }
 .trabajo_cont {
-  height: calc(100% - 0rem);
-  width: 20%;
+  width: 100%;
+  height: 500px;
   background: #fff;
-  display: inline-block;
   transform-origin: top;
   -webkit-transform: translate(0, 0);
   transition: all 0.5s ease;
@@ -765,8 +772,7 @@ strong {
     border-radius: 0 3rem;
   }
   .trabajo_cont {
-    width: calc(100vw - 6rem);
-    height: calc(100% - 6rem);
+    width: 100%;
     margin-top: 6rem;
   }
   .trabajo_padding {
@@ -789,9 +795,10 @@ strong {
   opacity: 0;
 }
 #contacto {
-  width: calc(60% - 22rem);
+  overflow-x: hidden;
+  width: 100%;
   height: 100%;
-  display: inline-block;
+  display: flex;
   position: relative;
   transition: opacity 0.3s ease;
   -o-transition: opacity 0.3s ease;
@@ -799,10 +806,13 @@ strong {
   -webkit-transition: opacity 0.3s ease;
 }
 .sociales {
-  bottom: 6rem;
-  position: absolute;
-  right: 6rem;
   text-align: right;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  padding: 55px;
 }
 .sociales img {
   width: 2rem;
@@ -834,11 +844,6 @@ strong {
   -o-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
-}
-#contacto .texto_paneles {
-  text-align: right;
-  right: 0;
-  float: right;
 }
 #btn_planner {
   margin-right: 0;
@@ -1368,4 +1373,14 @@ li p {
 .goria-li video {
   position: relative;
   left: 64px;
+}
+
+.div2{
+  flex: 1;
+}
+
+.socials{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
