@@ -660,7 +660,6 @@ strong {
 }
 .trabajo_cont {
   width: 100%;
-  height: 500px;
   background: #fff;
   transform-origin: top;
   -webkit-transform: translate(0, 0);
@@ -679,6 +678,7 @@ strong {
 }
 .trabajo_padding {
   padding: 15rem 6rem 6rem;
+  height: 500px;
 }
 .trabajo {
   cursor: pointer;
