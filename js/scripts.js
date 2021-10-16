@@ -9006,7 +9006,7 @@ function volverabout() {
         (gtag("event", "1", { event_category: "Click trabajos" }),
         (window.interna = 1),
         
-        $("#trabajo_padding").css("height", "0"),
+        $("#trabajo_padding").css({"height", "0px"}),
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
         $("#contacto").css({ opacity: "0" }),
@@ -9091,7 +9091,7 @@ function volverabout() {
       "#2" == window.location.hash &&
         (gtag("event", "2", { event_category: "Click trabajos" }),
         (window.interna = 1),
-        $("#trabajo_padding").css("height", "0"),
+        $("#trabajo_padding").css({"height", "0px"}),
 
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
