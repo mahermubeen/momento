@@ -1362,6 +1362,7 @@ li p {
 
 .goria-li {
   display: flex !important;
+  padding: 56px 0;
 }
 
 .goria-li video {
