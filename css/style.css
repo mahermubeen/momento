@@ -1203,7 +1203,6 @@ input:-webkit-autofill {
   padding: 0;
   margin: 0 auto;
   font-size: 0;
-  display: flex;
 }
 .grilla:after {
   content: "";
@@ -1214,15 +1213,12 @@ input:-webkit-autofill {
   height: 0;
 }
 .grilla li {
-  display: flex;
+  display: block;
   float: left;
   position: relative;
   background-color: #e1e3e2;
 }
-.grilla li video {
-  position: relative;
-  left: 64px;
-}
+
 .li16 {
   width: 16.666666%;
 }
@@ -1358,4 +1354,17 @@ li p {
   z-index: 9999999999;
   -webkit-transition: opacity 0.5s linear;
   transition: opacity 0.5s linear;
+}
+
+.goria {
+  display: flex !important;
+}
+
+.goria-li {
+  display: flex !important;
+}
+
+.goria-li video {
+  position: relative;
+  left: 64px;
 }
