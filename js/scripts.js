@@ -7084,6 +7084,8 @@ function init2() {
         $(window).scrollTop(window.tempScrollTop),
         $("html, body").animate({ scrollTop: 0 }, 500),
         setTimeout(function () {
+          $(".trabajo_padding").css("height", "500px"),
+
           $(".interna_headernext .titulo_thumbs").css({ opacity: "0" }),
             $("#ocultable").css({ opacity: "0" }),
             $(".hover_black").css({ opacity: ".1" });
@@ -9177,6 +9179,8 @@ function volverabout() {
       "#3" == window.location.hash &&
         (gtag("event", "3", { event_category: "Click trabajos" }),
         (window.interna = 1),
+        $(".trabajo_padding").css("height", "0"),
+
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
         $("#contacto").css({ opacity: "0" }),
@@ -9261,6 +9265,8 @@ function volverabout() {
       "#4" == window.location.hash &&
         (gtag("event", "4", { event_category: "Click trabajos" }),
         (window.interna = 1),
+        $(".trabajo_padding").css("height", "0"),
+
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
         $("#contacto").css({ opacity: "0" }),
@@ -9346,6 +9352,8 @@ function volverabout() {
         (gtag("event", "5", { event_category: "Click trabajos" }),
         (window.ultimo = !0),
         (window.interna = 1),
+        $(".trabajo_padding").css("height", "0"),
+
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
         $("#contacto").css({ opacity: "0" }),
