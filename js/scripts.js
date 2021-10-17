@@ -9013,7 +9013,7 @@ function volverabout() {
         (gtag("event", "1", { event_category: "Click trabajos" }),
         (window.interna = 1),
         
-        $(".trabajo_padding").css("height", "0"),
+        $(".paneles_home").css({display, "none"}),
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
         $("#contacto").css({ opacity: "0" }),
@@ -9098,7 +9098,7 @@ function volverabout() {
       "#2" == window.location.hash &&
         (gtag("event", "2", { event_category: "Click trabajos" }),
         (window.interna = 1),
-        $(".trabajo_padding").css("height", "0"),
+        $(".paneles_home").css({display, "none"}),
 
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
@@ -9184,7 +9184,7 @@ function volverabout() {
       "#3" == window.location.hash &&
         (gtag("event", "3", { event_category: "Click trabajos" }),
         (window.interna = 1),
-        $(".trabajo_padding").css("height", "0"),
+       $(".paneles_home").css({display, "none"}),
 
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
@@ -9270,7 +9270,7 @@ function volverabout() {
       "#4" == window.location.hash &&
         (gtag("event", "4", { event_category: "Click trabajos" }),
         (window.interna = 1),
-        $(".trabajo_padding").css("height", "0"),
+        $(".paneles_home").css({display, "none"}),
 
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
@@ -9357,7 +9357,7 @@ function volverabout() {
         (gtag("event", "5", { event_category: "Click trabajos" }),
         (window.ultimo = !0),
         (window.interna = 1),
-        $(".trabajo_padding").css("height", "0"),
+        $(".paneles_home").css({display, "none"}),
 
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
