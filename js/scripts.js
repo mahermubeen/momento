@@ -9186,6 +9186,7 @@ function volverabout() {
         (gtag("event", "3", { event_category: "Click trabajos" }),
         (window.interna = 1),
         $(".paneles_home").css("display", "none"),
+         $("#falsocontenido").css("height", "0"),
 
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
@@ -9358,6 +9359,7 @@ function volverabout() {
         (window.ultimo = !0),
         (window.interna = 1),
         $(".paneles_home").css("display", "none"),
+         $("#falsocontenido").css("height", "0"),
 
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
