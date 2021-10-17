@@ -7411,13 +7411,16 @@ function init2() {
           $("#content").load("index.html #content"),
             $("#falsocontenido").css(
               "height",
-              2 * $("#home").width() + window.innerHeight + "px"
+              2 * $("#home").height() + window.innerHeight + "px"
             ),
-            1e3 < $(window).width()
+            1e3 < $(window).height()
               ? $(window).scrollTop(window.oldScrollPos)
               : $("#paneles_home").scrollLeft(window.oldScrollPosM),
             $(".trabajo").removeAttr("style"),
             $("#paneles_home").removeAttr("style"),
+            $("#paneles_home").css({ display: "block" }),
+
+            
             setTimeout(function () {
               $(".trabajo_cont").removeAttr("style");
             }, 500),
@@ -9715,6 +9718,8 @@ function volverabout() {
       $(".trabajo_cont").removeAttr("style"),
       $(".trabajo").removeAttr("style"),
       $("#paneles_home").removeAttr("style"),
+      $("#paneles_home").css({ display: "none" }),
+
       $("#intro").css({ opacity: "0" }),
       $("#contacto").css({ opacity: "0" }),
       $("#trabajo1").css({ opacity: "0" }),
