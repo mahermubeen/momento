@@ -9014,6 +9014,8 @@ function volverabout() {
         (window.interna = 1),
         
         $(".paneles_home").css("display", "none"),
+        $("#falsocontenido").css("height", "0"),
+        
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
         $("#contacto").css({ opacity: "0" }),
@@ -9098,6 +9100,7 @@ function volverabout() {
         (gtag("event", "2", { event_category: "Click trabajos" }),
         (window.interna = 1),
         $(".paneles_home").css("display", "none"),
+        $("#falsocontenido").css("height", "0"),
 
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
@@ -9268,6 +9271,7 @@ function volverabout() {
         (gtag("event", "4", { event_category: "Click trabajos" }),
         (window.interna = 1),
         $(".paneles_home").css("display", "none"),
+        $("#falsocontenido").css("height", "0"),
 
         $("#logo1").css("opacity", "0"),
         $("#intro").css({ opacity: "0" }),
@@ -9417,6 +9421,7 @@ function volverabout() {
           $("#content_wrapper").load(
             "works/trabajos5.html #content",
             function () {
+              $("#falsocontenido").css("height", "0"),
               $("#paneles_home").css("display", "none"),
                 $(window).off("scroll.scrolldisabler"),
                 $(window).scrollTop(0),
