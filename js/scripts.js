@@ -7417,8 +7417,8 @@ function init2() {
               ? $(window).scrollTop(window.oldScrollPos)
               : $("#paneles_home").scrollLeft(window.oldScrollPosM),
             $(".trabajo").removeAttr("style"),
+            $(".trabajo_padding").removeAttr("style"),
             $("#paneles_home").removeAttr("style"),
-            $("#paneles_home").css({ display: "block" }),
 
             
             setTimeout(function () {
@@ -7751,6 +7751,7 @@ function init2() {
               ? $(window).scrollTop(window.oldScrollPos)
               : $("#paneles_home").scrollLeft(window.oldScrollPosM),
             $(".trabajo").removeAttr("style"),
+            $(".trabajo_padding").removeAttr("style"),
             $("#paneles_home").removeAttr("style"),
             setTimeout(function () {
               $(".trabajo_cont").removeAttr("style");
