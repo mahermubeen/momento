@@ -668,6 +668,9 @@ strong {
   -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
 }
+.trabajo_cont a{
+  display: flex;
+}
 .hover_black,
 .hover_thumbs,
 .trabajo,
