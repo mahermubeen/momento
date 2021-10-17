@@ -860,11 +860,12 @@ strong {
     color: #000;
   }
   .sociales {
-    right: 3rem !important;
-    bottom: 3rem;
+    padding: 0;
+    padding-bottom: 55px;
   }
   #contacto {
     width: calc(100% - 6rem);
+    flex-direction: column;
   }
   #bloqueabout {
     left: -1.5rem;
