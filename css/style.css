@@ -566,7 +566,7 @@ strong {
 }
 #paneles_home {
   width: 100%;
-  height: 100%;
+  height: 100% !important;
   white-space: nowrap;
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
