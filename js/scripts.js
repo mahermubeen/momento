@@ -9076,8 +9076,7 @@ function volverabout() {
           $("#content_wrapper").load(
             "works/trabajos.html #content",
             function () {
-              $("#falsocontenido").css("height", "0"),
-                $("#paneles_home").css("height", "0"),
+                $("#paneles_home").css("display", "none"),
                 $(window).off("scroll.scrolldisabler"),
                 $(window).scrollTop(0),
                 $("#link_studio").css("border-bottom", "2px solid transparent"),
@@ -9162,8 +9161,7 @@ function volverabout() {
           $("#content_wrapper").load(
             "works/trabajos2.html #content",
             function () {
-              $("#falsocontenido").css("height", "0"),
-                $("#paneles_home").css("height", "0"),
+             $("#paneles_home").css("display", "none"),
                 $(window).off("scroll.scrolldisabler"),
                 $(window).scrollTop(0),
                 $("#link_studio").css("border-bottom", "2px solid transparent"),
@@ -9248,8 +9246,7 @@ function volverabout() {
           $("#content_wrapper").load(
             "works/trabajos3.html #content",
             function () {
-              $("#falsocontenido").css("height", "0"),
-                $("#paneles_home").css("height", "0"),
+             $("#paneles_home").css("display", "none"),
                 $(window).off("scroll.scrolldisabler"),
                 $(window).scrollTop(0),
                 $("#link_studio").css("border-bottom", "2px solid transparent"),
@@ -9334,8 +9331,7 @@ function volverabout() {
           $("#content_wrapper").load(
             "works/trabajos4.html #content",
             function () {
-              $("#falsocontenido").css("height", "0"),
-                $("#paneles_home").css("height", "0"),
+            $("#paneles_home").css("display", "none"),
                 $(window).off("scroll.scrolldisabler"),
                 $(window).scrollTop(0),
                 $("#link_studio").css("border-bottom", "2px solid transparent"),
@@ -9421,8 +9417,7 @@ function volverabout() {
           $("#content_wrapper").load(
             "works/trabajos5.html #content",
             function () {
-              $("#falsocontenido").css("height", "0"),
-                $("#paneles_home").css("height", "0"),
+              $("#paneles_home").css("display", "none"),
                 $(window).off("scroll.scrolldisabler"),
                 $(window).scrollTop(0),
                 $("#link_studio").css("border-bottom", "2px solid transparent"),
